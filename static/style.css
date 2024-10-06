@@ -1,0 +1,128 @@
+/* Atur latar belakang dengan gradasi pink ke ungu */
+body {
+    background: linear-gradient(135deg, #77ff99, #9b30ff);
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk menu di halaman Home */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    color: #fff;
+}
+
+.menu-container {
+    background-color: rgba(155, 48, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.menu-item {
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: rgba(255, 119, 233, 0.5);
+}
+
+label {
+    font-size: 16px;
+    color: white;
+    margin-left: 8px;
+}
+
+/* Gaya tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(155, 48, 255, 0.5);
+}
+
+/* Tampilan Sidebar */
+#sidebar {
+    background-color: rgba(255, 119, 233, 0.8);
+    padding: 20px;
+    min-height: 100vh;
+    color: white;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    margin-bottom: 2px;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #694d69;
+    font-size: 18px;
+}
+
+#sidebar ul li a:hover {
+    color: #48945b
+}
+
+/* Tampilan Konten Utama */
+main {
+    padding: 20px;
+    background-color: rgba(155, 48, 255, 0.1);
+    border-radius: 10px;
+}
+
+/* Gaya tombol */
+button {
+    background-color: #ff77e9;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #9b30ff;
+}
+
+/* Gaya form input */
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #561818;
+    border-radius: 8px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #ff77e9;
+}
